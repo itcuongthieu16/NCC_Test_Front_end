@@ -1,0 +1,48 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    padding: 20px 40px;
+    position: relative;
+}
+
+.logo > img {
+    padding: 20px 0;
+}
+
+.desciption {
+    background: #EFEFEF;
+    text-align: center;
+    padding: 40px 20.5%;
+}
+
+.desciption > h4 {
+    color: #000000;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.list-content {
+    display: flex;
+    margin-top: 40px;
+    justify-content: space-between;
+}
+
+.list-content__item {
+    width: 31%;
+}
+
+.list-content__item > h3 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 36px;
+}
+
+.main__content > img{
+    float: left;
+}
+
+.main__content > p {
+    font-size: 16px;
+}

@@ -1,0 +1,40 @@
+.sidebar {
+    width: 150px;
+    height: 935px;
+    background: #191718;
+    box-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+}
+
+.sidebar-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebarNavLink {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    width: 150px;
+    height: 44px;
+    color: #aaa;
+    text-decoration: none;
+    font-weight: 700;
+    border-bottom: 1px solid #5C5C5C;
+}
+
+.sidebarNavLink:hover {
+    width: 150px;
+    height: 44px;
+    background: #5C5C5C;
+    color: #FFFF;
+    transition: 0.3s;
+}
+
+.sidebar-text {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    padding-left: 16px;
+}
+
